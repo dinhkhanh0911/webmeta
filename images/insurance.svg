@@ -1,0 +1,18 @@
+<svg id="insurance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.691" height="123" viewBox="0 0 93.691 123">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b0eb"/>
+      <stop offset="1" stop-color="#d1e8ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_77" data-name="Group 77" transform="translate(0 0)">
+    <g id="Group_76" data-name="Group 76">
+      <path id="Path_89" data-name="Path 89" class="cls-1" d="M151.088,19.608c-19.946,0-40.617-18.489-40.821-18.674a3.6,3.6,0,0,0-4.842,0C105.219,1.121,84.6,19.608,64.6,19.608a3.6,3.6,0,0,0-3.6,3.6V66.367c0,34.96,26,48.929,45.56,56.4a3.605,3.605,0,0,0,2.571,0c27.424-10.469,45.56-26.8,45.56-56.4V23.212A3.6,3.6,0,0,0,151.088,19.608Z" transform="translate(-61 0)"/>
+    </g>
+  </g>
+</svg>

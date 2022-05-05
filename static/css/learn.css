@@ -1,0 +1,331 @@
+/* .navbar_child:hover>.subnav{
+    display: block;
+} */
+
+
+/*body*/
+.container .why_metaverse{
+    padding: 80px 0px;
+}
+.row{
+    width: 100%;
+    justify-content: space-between;
+}
+.container .block{
+    display: block;
+}
+.container .why_metaverse .why_metaverse_content .why_metaverse-link {
+    border: none;
+    color: #09b1ed;
+    font-size: 21px;
+    text-transform: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.container .why_metaverse .why_metaverse_content .why_metaverse-link:hover {
+    background-color: unset;
+    color: #fff;
+}
+
+.why_metaverse_block {
+    border: 1px solid #c7c7c7;
+    padding: calc(1245px * 0.05);
+    box-shadow: 1px 3px 3px #c7c7c7;
+}
+
+.btn-container {
+    width: 100%;
+}
+
+
+/*why metaverse*/
+
+.why_metaverse.started {
+    padding: 130px 0;
+    margin-bottom: 1.5rem;
+    height: auto;
+    z-index: 11;
+}
+
+.why_metaverse.started a {
+    border: none;
+    color: #09b1ed;
+    font-size: 21px;
+    text-transform: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.why_metaverse.started a:hover {
+    background-color: unset;
+    border: unset;
+}
+
+.why_metaverse.started .title {
+    text-transform: uppercase;
+    font-size: 26.25px;
+    font-weight: 700;
+}
+
+.why_metaverse.started .inner_row {
+    margin-top: 25px;
+    padding: 40px 40px 30px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.why_metaverse.started .inner_row .description>p {
+    font-size: 20px;
+}
+
+.why_metaverse.started .inner_row .icon {
+    height: 131px;
+    width: 131px;
+    min-height: 131px;
+    min-width: 131px;
+    margin-right: 40px;
+}
+
+.why_metaverse.started .inner_row .icon.membership {
+    background: url("../../images/membership2.svg") no-repeat;
+}
+
+.why_metaverse.started .inner_row .icon.token_coin {
+    background: url("../../images/TokenCoin.svg") no-repeat;
+}
+
+.why_metaverse.started .inner_row .icon.embassy {
+    background: url("../../images/embassy.svg") no-repeat;
+}
+
+
+
+
+
+/*footer widget*/
+
+.footer_widget {
+    height: 90px;
+    padding: 20px 0;
+    text-align: start;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_widget p {
+    color: #777777;
+    font-size: 12px;
+}
+
+
+/*button*/
+
+.m_button {
+    height: 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.m_button:hover {
+    border: 2px solid #e6e6e6;
+}
+
+.m_button.join_community {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.m_button.button_primary {
+    width: 30%;
+    background-color: #09b1ed;
+    /* text-transform: uppercase; */
+    border: none;
+    color: #fff;
+    padding: 0;
+    height: 32px;
+}
+/*standard_section .community_section*/
+
+.standard_section.community_section {
+    min-height: 450px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.standard_section.community_section .background {
+    background-color: #08163a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 450px;
+}
+
+.standard_section.community_section .community_info {
+    min-height: 450px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.standard_section.community_section .community_info .title {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 700;
+    font-size: 37px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .button_group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .learn {
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .learn>a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.standard_section.community_section .community_img {
+    min-height: 450px;
+    max-height: 450px;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.standard_section.community_section .community_img>img {
+    min-height: inherit;
+    max-height: inherit;
+}
+
+
+
+@media (max-width: 1000px) {
+    .marterial-open {
+        height: 791px;
+    }
+    .header {
+        height: unset;
+        display: flex;
+        align-items: center;
+    }
+    .header a {
+        display: block;
+    }
+    .header a img {
+        height: 24px;
+        display: block;
+    }
+    
+    .why_metaverse_block {
+        margin-bottom: 20px;
+        padding: 70px 40px!important;
+    }
+}
+
+@media (max-width: 740px) {
+    /*standard_section .started*/
+    .why_metaverse.started {
+        padding: 4vh 0;
+    }
+    .why_metaverse.started .inner_row {
+        display: block;
+    }
+    .why_metaverse.started .inner_row .description {
+        padding-top: 20px;
+    }
+
+    /*standard_section .community_section*/
+    .standard_section.community_section {
+        min-height: 350px;
+        max-height: 350px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .standard_section.community_section .background {
+        min-height: 350px;
+    }
+    .standard_section.community_section .community_img {
+        min-height: 200px;
+        max-height: 200px;
+    }
+    .standard_section.community_section .community_info {
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 1113px) {}
+
+@media (min-width: 740px) and (max-width: 1000px) {
+    .content_wrap {
+        padding: 0px 20px;
+    }
+    /*standard_section .started*/
+    .why_metaverse.started {
+        padding: 4vh 0;
+    }
+    .why_metaverse.started .inner_row {
+        display: block;
+    }
+    .why_metaverse.started .inner_row .description {
+        padding-top: 20px;
+    }
+    .intro_container .intro_img_earth {
+        width: 229px;
+        height: 229px;
+        margin-top: 50px;
+    }
+
+    /*standard_section .community_section*/
+    .standard_section.community_section {
+        min-height: 450px;
+        max-height: 450px;
+    }
+    .standard_section.community_section .background {
+        min-height: 450px;
+    }
+    .standard_section.community_section .community_img {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .standard_section.community_section .community_info {
+        min-height: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1017px) {
+    .col{
+        padding: 0;
+    }
+}
